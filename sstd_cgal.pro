@@ -14,6 +14,10 @@ win32-msvc{
     SOURCES += $$PWD/msvc_config/all_files.cpp
 }
 
+win32-g++{
+    SOURCES += $$PWD/mingw_config/all_files.cpp
+}
+
 DEFINES *= CGAL_EXPORTS
 
 DESTDIR = $${SSTD_LIBRARY_OUTPUT_PATH}

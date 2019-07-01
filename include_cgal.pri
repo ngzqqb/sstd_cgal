@@ -6,6 +6,10 @@ win32-msvc{
     INCLUDEPATH += $$PWD/msvc_config/include
 }
 
+win32-g++{
+    INCLUDEPATH += $$PWD/mingw_config
+}
+
 INCLUDEPATH += $$PWD/sstd/AABB_tree/include
 INCLUDEPATH += $$PWD/sstd/Advancing_front_surface_reconstruction/include
 INCLUDEPATH += $$PWD/sstd/Algebraic_foundations/include

@@ -6,20 +6,19 @@ include($$PWD/../sstd_library/sstd_build_path.pri)
 win32-msvc{
     LIBS += -L$$PWD/msvc_config/lib -llibgmp-10
     LIBS += -L$$PWD/msvc_config/lib -llibmpfr-4
-    CONFIG(debug,debug|release){
-        LIBS += -L$${SSTD_LIBRARY_OUTPUT_PATH} -lsstd_cgal_debug
-    }else{
-        LIBS += -L$${SSTD_LIBRARY_OUTPUT_PATH} -lsstd_cgal
-    }
 }
 
+# windows mingw ...
+win32-g++{
 
+}
 
-
-
-
-
-
+# for all ...
+CONFIG(debug,debug|release){
+    LIBS += -L$${SSTD_LIBRARY_OUTPUT_PATH} -lsstd_cgal_debug
+}else{
+    LIBS += -L$${SSTD_LIBRARY_OUTPUT_PATH} -lsstd_cgal
+}
 
 
 
