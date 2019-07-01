@@ -29,3 +29,10 @@ debug/moc_predefs.h.cbt
 debug/mocinclude.opt
 mocinclude.opt
 release/moc_predefs.h.cbt
+*.tlog
+*.obj
+moc_*.h
+moc_*.cpp
+
+*.pdb
+*.log
