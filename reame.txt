@@ -1,6 +1,10 @@
 ﻿
 windows msvc :
 2019/7/1
+run cgal-??-setup.exe
+copy libgmp/libmpfr lib to msvc_config/lib 
+copy libgmp/libmpfr headers to msvc_config/include 
+copy libgmp/libmpfr dll msvc_config/dll 
 
 windows gcc :
 
