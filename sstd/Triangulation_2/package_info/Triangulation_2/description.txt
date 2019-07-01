@@ -1,0 +1,3 @@
+﻿Package triangulation: provides triangulations, Delaunay triangulations,
+constrained and regular triangulations with  tests and examples.
+

@@ -1,0 +1,4 @@
+﻿Given a Nef_polyhedron_3 N, convex_decomposition_3 inserts facets into N,
+such that all volumes become convex.
+
+

@@ -1,0 +1,2 @@
+﻿Data structure for efficient intersection and distance queries over sets of 3D geometric primitives.
+

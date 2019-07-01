@@ -1,0 +1,2 @@
+﻿Implementation of a halfedge datastructure
+

@@ -1,0 +1,2 @@
+﻿Squared distance computations for simple 2D objects.
+

@@ -1,0 +1,3 @@
+﻿Package Spatial_sorting:
+Clever sorting of points to improve incremental algorithms (typically Delaunay).
+

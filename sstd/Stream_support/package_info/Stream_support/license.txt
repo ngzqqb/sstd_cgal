@@ -1,0 +1,2 @@
+﻿LGPL (v3 or later)
+

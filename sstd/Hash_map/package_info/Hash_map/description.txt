@@ -1,0 +1,2 @@
+﻿Simple Incremental Hash Map
+

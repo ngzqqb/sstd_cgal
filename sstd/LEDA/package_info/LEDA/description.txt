@@ -1,0 +1,4 @@
+﻿Support for LEDA allocator, namespace and
+some LEDA kernel functionality
+
+

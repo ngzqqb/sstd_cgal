@@ -1,0 +1,4 @@
+﻿The Mesh_3  package is a mesh generator to build
+isotropic simplicial meshes
+of 3D domains.
+

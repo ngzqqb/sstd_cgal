@@ -1,0 +1,3 @@
+﻿The following file has been copied from Qt Free Edition version 4.4:
+  fileOpen.png
+

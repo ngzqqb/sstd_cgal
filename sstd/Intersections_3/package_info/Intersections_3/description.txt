@@ -1,0 +1,2 @@
+﻿Intersections of 3D planes, lines, rays, segments and triangles.
+

@@ -1,0 +1,3 @@
+﻿The interval skip list is a data structure for finding all intervals
+that contain a point, and for stabbing queries.
+

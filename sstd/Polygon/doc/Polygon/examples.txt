@@ -1,0 +1,7 @@
+﻿/*!
+\example Polygon/Example.cpp
+\example Polygon/polygon_algorithms.cpp
+\example Polygon/Polygon.cpp
+\example Polygon/projected_polygon.cpp
+*/
+
