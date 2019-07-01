@@ -8,6 +8,7 @@ win32-msvc{
 
 win32-g++{
     INCLUDEPATH += $$PWD/mingw_config
+    INCLUDEPATH += $$PWD/mingw_config/include
 }
 
 INCLUDEPATH += $$PWD/sstd/AABB_tree/include

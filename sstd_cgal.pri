@@ -10,7 +10,8 @@ win32-msvc{
 
 # windows mingw ...
 win32-g++{
-
+    LIBS += -L$$PWD/mingw_config/lib -lgmp
+    LIBS += -L$$PWD/mingw_config/lib -lmpfr
 }
 
 # for all ...
