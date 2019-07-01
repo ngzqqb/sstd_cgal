@@ -34,6 +34,10 @@ win32-msvc{
     QMAKE_POST_LINK += $$escape_expand(\\n\\t)$${SSTD_LIBRARY_OUTPUT_PATH}/sstd_copy_qml $${PWD}/msvc_config/dll $${DESTDIR} debug
 }
 
+win32-g++{
+    QMAKE_POST_LINK += $$escape_expand(\\n\\t)$${SSTD_LIBRARY_OUTPUT_PATH}/sstd_copy_qml $${PWD}/mingw_config/dll $${DESTDIR} debug
+}
+
 export(QMAKE_PRE_LINK)
 export(QMAKE_POST_LINK)
 
