@@ -1,3 +1,5 @@
 test_sstd_cgal.pro.user
 debug/
 release/
+polytest.*
+
