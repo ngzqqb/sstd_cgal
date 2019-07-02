@@ -14,6 +14,12 @@ win32-g++{
     LIBS += -L$$PWD/mingw_config/lib -lmpfr.dll
 }
 
+# linux g++ ...
+linux-g++{
+    LIBS += -lgmp
+    LIBS += -lmpfr
+}
+
 # for all ...
 CONFIG(debug,debug|release){
     LIBS += -L$${SSTD_LIBRARY_OUTPUT_PATH} -lsstd_cgal_debug

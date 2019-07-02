@@ -11,6 +11,10 @@ win32-g++{
     INCLUDEPATH += $$PWD/mingw_config/include
 }
 
+linux-g++{
+    INCLUDEPATH += $$PWD/linux_config
+}
+
 INCLUDEPATH += $$PWD/sstd/AABB_tree/include
 INCLUDEPATH += $$PWD/sstd/Advancing_front_surface_reconstruction/include
 INCLUDEPATH += $$PWD/sstd/Algebraic_foundations/include
