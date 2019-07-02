@@ -10,5 +10,6 @@ windows gcc :
 libgmp/libmpfr copy from cygwin g++ 7.4
 
 linux : 
-
+sudo apt-get install libgmp-dev
+sudo apt-get install libmpfr-dev 
 
